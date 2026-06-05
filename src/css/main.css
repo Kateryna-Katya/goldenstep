@@ -78,3 +78,21 @@ text-align: left;
     margin-right: auto;
  }
 }
+/* How To Play */
+.how-section{
+    background: #e8e5d6;
+}
+.how-swiper .swiper-slide{
+    width: 210px;
+    height: 536px;
+}
+.how-swiper .swiper-slide img{
+    width: 100%;
+height: 536px;
+}
+@media only screen and (min-width: 1440px) {
+ .how-swiper .swiper-wrapper{
+    gap: 32px;
+    justify-content: center;
+ }
+}
